@@ -21,7 +21,10 @@ func (c *CCalculator) Multiple() int {
 }
 
 func main() {
-	myCalc := NewCCalculator(3, 2)
+	x := 3
+	y := 2 // добавил инициализацию переменных, тк фиксить нечего
+
+	myCalc := NewCCalculator(x, y)
 
 	fmt.Println("Сумма:", myCalc.Sum())
 	fmt.Println("Произведение:", myCalc.Multiple())
