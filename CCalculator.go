@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Версия 0.0.1.1 от 11.09.2024
+// Версия 0.0.1.1 от 18.09.2024
 
 type CCalculator struct {
 	x, y int
